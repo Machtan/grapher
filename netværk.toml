@@ -1,0 +1,85 @@
+# BSUP
+[start]
+id = 0
+tid = 0
+næste = [16]
+
+[samarbejdsaftale]
+id = 16
+tid = 10
+næste = [2, 3, 4, 5, 8]
+
+[mødeplan]
+id = 2
+tid = 6
+næste = [6]
+
+[arbejdsplan]
+id = 3
+tid = 12
+næste = [7]
+
+[undersøgelsesplan]
+id = 4
+tid = 13
+næste = [7]
+
+[samarbejdsaftale_med_observeret_gruppe]
+id = 5
+tid = 7
+næste = [9]
+
+[afhold_review]
+id = 6
+tid = 29
+næste = [10]
+
+[research_metoder]
+id = 7
+tid = 47
+næste = [11]
+
+[skriv_problemformulering]
+id = 8
+tid = 5
+næste = [13]
+
+[indsaml_data_fra_den_observerede_gruppe]
+id = 9
+tid = 42
+næste = [11, 14]
+
+[skriv_review-rapport]
+id = 10
+tid = 17
+næste = [12]
+
+[skriv_analyse]
+id = 11
+tid = 50
+næste = [13]
+
+[indkorporering_af_ændringer]
+id = 12
+tid = 18
+næste = [14]
+
+[skriv_konklusion]
+id = 13
+tid = 6
+næste = [15]
+
+[skriv_refleksion]
+id = 14
+tid = 8
+næste = [15]
+
+[renskrivning]
+id = 15
+tid = 27
+næste = [1]
+
+[slut]
+id = 1
+tid = 0
+næste = []

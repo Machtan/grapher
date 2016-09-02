@@ -1,0 +1,22 @@
+[nodes]
+1 = "Bagsværd"
+2 = "Søborg"
+
+[deps]
+2 = [1]
+
+[res.Lake]
+1 = "Bagsværd sø"
+
+[res.lake.rels]
+1 = [1]
+
+[res.Library]
+1 = "Bibliografen"
+2 = "Værebro bibliotek"
+3 = "Gladsaxe hovedbibliotek"
+
+[res.Library.rels]
+1 = [1]
+2 = [1]
+3 = [2]
